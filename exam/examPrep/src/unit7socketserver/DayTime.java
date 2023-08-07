@@ -12,26 +12,28 @@ package unit7socketserver;
 import java.net.*;
 import java.io.*;
 import java.util.Date;
+
 public class DayTime {
+
     public static void main(String[] args) {
-        try{
+        try {
             ServerSocket ss = new ServerSocket(6000);
-            while(true){
+            while (true) {
                 Socket client = ss.accept();
                 Date now = new Date();
                 OutputStreamWriter out = new OutputStreamWriter(client.getOutputStream());
                 out.write(now.toString());
-                
-  // if binary data to be sent               
+
+                // if binary data to be sent               
 //                OutputStream out = client.getOutputStream();
 //                byte[] binary = now.toString().getBytes();
 //                out.write(binary);
                 out.flush();
-                client.close();   
+                client.close();
             }
-        }catch(Exception e){
-            
+        } catch (Exception e) {
+
         }
-        
+
     }
 }

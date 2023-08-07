@@ -12,6 +12,7 @@ package unit7socketserver;
 import java.net.*;
 import java.io.*;
 import java.util.*;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class MutliThreadedServer {
@@ -25,7 +26,7 @@ public class MutliThreadedServer {
                 t.start();
             }
         } catch (Exception e) {
-
+            System.out.println(e.getMessage());
         }
     }
 

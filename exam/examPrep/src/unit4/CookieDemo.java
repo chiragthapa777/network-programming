@@ -29,16 +29,16 @@ public class CookieDemo {
         cookieStore.add(uri, cookie2);
 
         // Example: Remove a specific cookie
-        List<HttpCookie> cookies = cookieStore.get(uri);
-        for (HttpCookie 
-                : cookies) {
-            System.out.println("==>"+cookie);
-            System.out.println("getDomain = "+cookie.getDomain());
-            if (cookie.getName().equals("name")) {
-                // Remove the cookie from the cookie store
-                cookieStore.remove(uri, cookie);
-            }
-        }
+//        List<HttpCookie> cookies = cookieStore.get(uri);
+//        for (HttpCookie
+//                : cookies) {
+//            System.out.println("==>"+cookie);
+//            System.out.println("getDomain = "+cookie.getDomain());
+//            if (cookie.getName().equals("name")) {
+//                // Remove the cookie from the cookie store
+//                cookieStore.remove(uri, cookie);
+//            }
+//        }
         
          HttpCookie cookie = new HttpCookie("name", "chirag");
         cookie.setDomain("example.com");
