@@ -1,0 +1,7 @@
+93.184.216.34 - - [04/Jan/2003:14:56:50 +0200] "GET/~lpis/curriculum/C+Unix/Ergastiria/week-7/filetype.c.txt HTTP/1.0"304
+8.8.8.8 - - [04/Jan/2003:14:57:33 +0200] "GET/~oswinds/top.html HTTP/1.0" 200 869
+64.68.82.70 - - [04/Jan/2003:14:58:25 +0200] "GET /~lpis/systems/r-device/r device examples.html HTTP/1.0" 200 16792
+216.239.46.133 - - [04/Jan/2003:14:58:27 +0200] "GET/~lpis/publications/crc-chapterl.html HTTP/1.0" 304
+209.237.238.161 - - [04/Jan/2003:14:59:11 +0200] "GET /robots.txtHTTP/1.0" 404 276
+209.237.238.161 - - [04/Jan/2003:14:59:12 +0200] "GET/teachers/pitas1.html HTTP/1.0" 404 286
+216.239.46.43 - - [04/Jan/2003:14:59:45 +0200] "GET~o8winds /publications.html HTtP/1.0" 200 48966
