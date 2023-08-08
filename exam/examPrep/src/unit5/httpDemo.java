@@ -43,6 +43,7 @@ public class httpDemo {
             // Write the query string to the OutputStream
             OutputStream outputStream = connection.getOutputStream();
             outputStream.write(queryString.getBytes());
+            outputStream.flush();
             outputStream.close();
             
             System.out.println("resonse code : " + connection.getResponseCode());

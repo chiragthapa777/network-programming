@@ -9,7 +9,7 @@ import java.net.URL;
 public class GetReq {
     public static void main(String[] args) {
         // Define the URL of the server
-        String urlString = "http://example.com/api/data?param1=value1&param2=value2";
+        String urlString = "http://localhost:9090/path?key=value";
 
         try {
             // Create a URL object with the server URL
